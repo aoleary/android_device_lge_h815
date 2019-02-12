@@ -6,11 +6,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/lge/h815/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aos/config/common.mk)
+$(call inherit-product, vendor/havoc/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := h815
-PRODUCT_NAME := aos_h815
+PRODUCT_NAME := havoc_h815
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-H815
 PRODUCT_MANUFACTURER := LGE
